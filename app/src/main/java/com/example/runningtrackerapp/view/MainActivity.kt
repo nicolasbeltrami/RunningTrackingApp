@@ -1,8 +1,9 @@
-package com.example.runningtrackerapp
+package com.example.runningtrackerapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.runningtrackerapp.R
 import com.example.runningtrackerapp.model.RunDao
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
