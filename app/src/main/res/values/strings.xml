@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">RunningTrackerAPP</string>
-    <string name="google_maps_key">AIzaSyAdV4bgg1dzmGHQDFgjwnT8ZP37kWKKQT0</string>
+    <string name="app_name">Running Tracker</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAdV4bgg1dzmGHQDFgjwnT8ZP37kWKKQT0</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="filter_options">
+        <item>Fecha</item>
+        <item>Tiempo</item>
+        <item>Distancia</item>
+        <item>Velocidad promedio</item>
+        <item>Calorias quemadas</item>
+    </string-array>
 </resources>
