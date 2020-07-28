@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolBar)
         bottomNavView.setupWithNavController(navHostFragment.findNavController())
+        bottomNavView.setOnNavigationItemReselectedListener { /* NO-OP*/ }
 
         // Con este fragmento de codigo se indica al navigation menu en que vistas se debe ver y en cuales no
         navHostFragment.findNavController()

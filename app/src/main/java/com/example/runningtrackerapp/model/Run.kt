@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
 data class Run(
     var image: Bitmap? = null,
     var timeStamp: Long = 0L,
-    var avgSpeedInKMG: Float = 0f,
+    var avgSpeedInKMH: Float = 0f,
     var distanceInMeters: Int = 0,
     var timeInMillis: Long = 0L,
     var caloriesBurned: Int = 0
